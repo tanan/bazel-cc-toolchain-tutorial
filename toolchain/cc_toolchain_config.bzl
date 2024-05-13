@@ -83,7 +83,7 @@ def _impl(ctx):
         compiler = "clang",
         abi_version = "unknown",
         abi_libc_version = "unknown",
-        tool_paths = tool_paths, # NEW
+        tool_paths = tool_paths,
     )
 
 cc_toolchain_config = rule(
